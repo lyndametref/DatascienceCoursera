@@ -1,5 +1,5 @@
 #Note
-*Personal notes, not meant to be accurate or understood by anyone*
+*Personal notes, not meant to be accurate or understood by others*
 
 # Week 1
 
