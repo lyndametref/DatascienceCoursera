@@ -19,3 +19,4 @@ list.files("./data")
 ```
 
 *IF plyr IS LOADED BEFORE dplyr summarize() AND group_by() MIGHT NOT WORK PROPERLY*
+http://stackoverflow.com/questions/26923862/group-by-summarize-in-in-dplyr-package
