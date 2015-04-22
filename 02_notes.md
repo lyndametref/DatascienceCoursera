@@ -25,4 +25,5 @@ options(error=recover)
 #Week4
 
 #Other
-R is a one based indexing system!
+*R is a one based indexing system!
+*vapply() allows you to specify the format explicitly. If the | result doesn't match the format you specify, vapply() will throw an error
