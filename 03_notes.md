@@ -17,6 +17,12 @@ fileUrl <- "https://data.baltimorecity.gov/api/views/dz54-2aru/rows.csv?accessTy
 download.file(fileUrl, destfile = "./data/cameras.csv", method = "curl")
 list.files("./data")
 ```
-
+## Same function name in different packages
 *IF plyr IS LOADED BEFORE dplyr summarize() AND group_by() MIGHT NOT WORK PROPERLY*
 http://stackoverflow.com/questions/26923862/group-by-summarize-in-in-dplyr-package
+
+## Index names
+```
+index(foo)
+```
+To get the index in a variable. Good to get dates/times in a time-serie object (xts)
