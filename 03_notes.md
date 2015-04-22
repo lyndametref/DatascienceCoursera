@@ -17,3 +17,5 @@ fileUrl <- "https://data.baltimorecity.gov/api/views/dz54-2aru/rows.csv?accessTy
 download.file(fileUrl, destfile = "./data/cameras.csv", method = "curl")
 list.files("./data")
 ```
+
+*IF plyr IS LOADED BEFORE dplyr summarize() AND group_by() MIGHT NOT WORK PROPERLY*
