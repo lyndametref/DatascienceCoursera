@@ -11,6 +11,17 @@ read.csv('file.csv',skip=5,nrows=190,header=F,stringsAsFactors=F)
 ```
 nrow=how many lines to read
 
+transforme a dataframe column to factor"
+```
+data[,'foo']<-as.factor(data[,'foo'])
+```
+
+Renaming levels of a factor
+```
+x <- factor(c("alpha","beta","gamma","alpha","beta"))
+levels(x) <- list(A="alpha", B="beta", C="gamma")
+```
+
 ##Download from URL
 ```
 fileUrl <- "https://data.baltimorecity.gov/api/views/dz54-2aru/rows.csv?accessType=DOWNLOAD"
