@@ -6,21 +6,24 @@
 #Week2
 
 #Week3
+* Rea a defined number of entry in csv (or other table)
 ```
 read.csv('file.csv',skip=5,nrows=190,header=F,stringsAsFactors=F)
 ```
 nrow=how many lines to read
 
-transforme a dataframe column to factor"
+* transforme a dataframe column to factor
 ```
 data[,'foo']<-as.factor(data[,'foo'])
 ```
 
-Renaming levels of a factor
+* Renaming levels of a factor
 ```
 x <- factor(c("alpha","beta","gamma","alpha","beta"))
 levels(x) <- list(A="alpha", B="beta", C="gamma")
 ```
+
+* summarize each column by group: summarise_each (dplyr)
 
 ##Download from URL
 ```
