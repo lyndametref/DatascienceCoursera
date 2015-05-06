@@ -19,11 +19,17 @@ Error...
 >traceback()
 ```
 * recover: error handler fire when an error occurs. Global R option to activate. Open function call stack and allow browsing the environnement of a given function level.
-```
+```{r}
 options(error=recover)
 ```
 #Week4
 
 #Other
-*R is a one based indexing system!
-*vapply() allows you to specify the format explicitly. If the | result doesn't match the format you specify, vapply() will throw an error
+* R is a one based indexing system!
+* vapply() allows you to specify the format explicitly. If the | result doesn't match the format you specify, vapply() will throw an error
+* Piping a result on a function. WARNING operator must stay at the end of the line else the command line thinks the command is over.
+```{r}
+data <- unz("activity.zip","activity.csv") %>% 
+    read.csv(as.is =TRUE,na.strings = "NA") %>% 
+    tbl_df
+```
