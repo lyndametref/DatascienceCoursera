@@ -1,12 +1,18 @@
 #Note
 *Personal notes, not meant to be accurate or understood by others*
 
-#Week1
-
-#Week2
-
-#Week3
-* Rea a defined number of entry in csv (or other table)
+#dplyr
+##Group by
+Group ```data``` by ```date```
+```{r}
+data <- group_by(data,date)
+```
+## Summarise
+```{r}
+DailyTotal<-summarize(data, sum=sum(steps,na.rm = TRUE))
+```
+#Other
+* Read a defined number of entry in csv (or other table)
 ```
 read.csv('file.csv',skip=5,nrows=190,header=F,stringsAsFactors=F)
 ```
@@ -25,7 +31,7 @@ levels(x) <- list(A="alpha", B="beta", C="gamma")
 
 * summarize each column by group: summarise_each (dplyr)
 
-##Download from URL
+#Download from URL
 ```
 fileUrl <- "https://data.baltimorecity.gov/api/views/dz54-2aru/rows.csv?accessType=DOWNLOAD"
 download.file(fileUrl, destfile = "./data/cameras.csv", method = "curl")
@@ -35,7 +41,7 @@ list.files("./data")
 *IF plyr IS LOADED BEFORE dplyr summarize() AND group_by() MIGHT NOT WORK PROPERLY*
 http://stackoverflow.com/questions/26923862/group-by-summarize-in-in-dplyr-package
 
-## Index names
+# Index names
 ```
 index(foo)
 ```
