@@ -37,3 +37,5 @@ data <- unz("activity.zip","activity.csv") %>%
 ```{r}
 x[is.na(x)]<-0
 ```
+## ?
+How to combine together two table with a common id and different values
