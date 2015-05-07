@@ -33,3 +33,7 @@ data <- unz("activity.zip","activity.csv") %>%
     read.csv(as.is =TRUE,na.strings = "NA") %>% 
     tbl_df
 ```
+## REplace NA by 0 (or smth else)
+```{r}
+x[is.na(x)]<-0
+```
