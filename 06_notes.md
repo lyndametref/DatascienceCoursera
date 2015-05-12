@@ -15,7 +15,7 @@ Consider an experiment with a random outcome. Probability takes a possible outco
 From the Kolmogorov axioms, one can deduce other useful rules for calculating probabilities.
  0. The probability that nothing occurs is 0
  0. The probability that something occurs is 1 
- 0. The probability of something is 1 minus the probability that the opposite occurs
+ 0. The probability of something is 1 minus the probability that the opposite occurs (odds)
  0. The probability of at least one of two (or more) things that can not simultaneously occur (mutually exclusive) is the sum of their respective probabilities 
  0. For any two events the probability that at least one occurs is the sum of their probabilities minus their intersection.
     
