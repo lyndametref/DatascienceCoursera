@@ -20,10 +20,21 @@ From the Kolmogorov axioms, one can deduce other useful rules for calculating pr
  0. For any two events the probability that at least one occurs is the sum of their probabilities minus their intersection.
     
 ##Probability mass function
-*a probability mass function (PMF) is a function that gives the probability that a discrete random variable is exactly equal to some value.*
+*a probability mass function (PMF) is a function that gives the probability that a **discrete** random variable is exactly equal to some value.*
 
 http://en.wikipedia.org/wiki/Probability_mass_function
 
 Valid PMF:
  0. It must always be larger than or equal to 0. 
  0. The sum of the possible values that the random variable can take has to add up to one.
+
+## Density or PDF (probability density function)
+*a probability density function (PDF), or density of a continuous random variable, is a function that describes the relative likelihood for this random variable to take on a given value. *
+
+http://en.wikipedia.org/wiki/Probability_density_function
+
+Areas under PDFs correspond to probabilities for that random variable.
+
+VAlid PDF:
+ 0. It must be larger than or equal to zero everywhere. 
+ 0. The total area under it must be one.
