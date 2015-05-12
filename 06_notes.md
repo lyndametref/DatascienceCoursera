@@ -20,7 +20,8 @@ From the Kolmogorov axioms, one can deduce other useful rules for calculating pr
  0. For any two events the probability that at least one occurs is the sum of their probabilities minus their intersection.
 
 ## Odds
-d=p/(1-p)
+**odds for** reflect the likelihood that a particular event will take place. **Odds against** reflect the likelihood that a particular event will not take place.
+d+=p/(1-p) or d-=(1-p)/p
 
 ##Probability mass function
 *a probability mass function (PMF) is a function that gives the probability that a **discrete** random variable is exactly equal to some value.*
