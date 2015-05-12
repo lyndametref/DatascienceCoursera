@@ -21,6 +21,9 @@ From the Kolmogorov axioms, one can deduce other useful rules for calculating pr
 
 ## Odds
 **odds for** reflect the likelihood that a particular event will take place. **Odds against** reflect the likelihood that a particular event will not take place.
+
+http://en.wikipedia.org/wiki/Odds
+
 d+=p/(1-p) or d-=(1-p)/p
 
 ##Probability mass function
