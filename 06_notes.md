@@ -53,3 +53,6 @@ VAlid PDF:
 * The **prevalence** of the disease - which is the marginal probability of disease
 * The **diagnostic likelihood ratio of a positive test** , labeled DLR+ is sensitivity/(1-specificity)
 * The **diagnostic likelihood ratio of a negative test** , labeled DLR- is (1-sensitivity)/specificity
+
+##IID
+*Random variables are said to be independent and identically distributed ( iid ) if they are independent and all are drawn from the same population.* The reason iid samples are so important is that they are are model for random samples. This is a default starting point for most statistical inferences.
