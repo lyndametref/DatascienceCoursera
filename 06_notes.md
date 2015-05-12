@@ -38,3 +38,6 @@ Areas under PDFs correspond to probabilities for that random variable.
 VAlid PDF:
  0. It must be larger than or equal to zero everywhere. 
  0. The total area under it must be one.
+
+## Cumulative distribution function (CDF) 
+*Cumulative distribution function of a random variable, returns the probability that the random variable is less than or equal to the value .*
