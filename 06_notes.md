@@ -60,5 +60,12 @@ VAlid PDF:
 ## Sample and population mean
 The sample mean estimates the population mean. The population mean is the center of mass of the population distribution, the sample mean is the center of mass of the data.
 
+* Expected values are properties of distributions. 
+* The population mean is the center of mass of population. 
+* The sample mean is the center of mass of the observed data. 
+* The sample mean is an estimate of the population mean
+* The sample mean is unbiased => the population mean of its distribution is the mean that it’s trying to estimate. 
+* The more data that goes into the sample mean, the more concentrated its density / mass function is around the population mean.
+
 ##“What does the distribution of averages look like?”.
 Notably, it’s centered at the same spot as the original distribution! Thus, the distribution of the estimator (the sample mean) is centered at the distribution of what it’s estimating (the population mean). When the expected value of an estimator is what its trying to estimate, we say that the estimator is unbiased .
