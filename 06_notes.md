@@ -40,4 +40,7 @@ VAlid PDF:
  0. The total area under it must be one.
 
 ## Cumulative distribution function (CDF) 
-*Cumulative distribution function of a random variable, returns the probability that the random variable is less than or equal to the value .*
+*Cumulative distribution function of a random variable X, returns the probability that the random variable is less than or equal to the value x.*
+
+## Survival function
+*The survival function of a random variable is defined as the probability that the random variable X is greater than the value x. *
