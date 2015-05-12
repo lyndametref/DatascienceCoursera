@@ -51,3 +51,5 @@ VAlid PDF:
 * The **positive predictive value** is the probability that the subject has the disease given that the test is positive
 * The **negative predictive value** is the probability that the subject does not have the disease given that the test is negative
 * The **prevalence** of the disease - which is the marginal probability of disease
+* The **diagnostic likelihood ratio of a positive test** , labeled DLR+ is sensitivity/(1-specificity)
+* The **diagnostic likelihood ratio of a negative test** , labeled DLR- is (1-sensitivity)/specificity
