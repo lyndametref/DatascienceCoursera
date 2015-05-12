@@ -56,3 +56,9 @@ VAlid PDF:
 
 ##IID
 *Random variables are said to be independent and identically distributed ( iid ) if they are independent and all are drawn from the same population.* The reason iid samples are so important is that they are are model for random samples. This is a default starting point for most statistical inferences.
+
+## Sample and population mean
+The sample mean estimates the population mean. The population mean is the center of mass of the population distribution, the sample mean is the center of mass of the data.
+
+##“What does the distribution of averages look like?”.
+Notably, it’s centered at the same spot as the original distribution! Thus, the distribution of the estimator (the sample mean) is centered at the distribution of what it’s estimating (the population mean). When the expected value of an estimator is what its trying to estimate, we say that the estimator is unbiased .
