@@ -23,3 +23,7 @@ From the Kolmogorov axioms, one can deduce other useful rules for calculating pr
 *a probability mass function (PMF) is a function that gives the probability that a discrete random variable is exactly equal to some value.*
 
 http://en.wikipedia.org/wiki/Probability_mass_function
+
+Valid PMF:
+ 0. It must always be larger than or equal to 0. 
+ 0. The sum of the possible values that the random variable can take has to add up to one.
