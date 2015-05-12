@@ -44,3 +44,10 @@ VAlid PDF:
 
 ## Survival function
 *The survival function of a random variable is defined as the probability that the random variable X is greater than the value x. *
+
+##Diagnostic test
+* The **sensitivity** is the probability that the test is positive given that the subject actually has the disease
+* The **specificity**  is the probability that the test is negative given that the subject does not have the disease
+* The **positive predictive value** is the probability that the subject has the disease given that the test is positive
+* The **negative predictive value** is the probability that the subject does not have the disease given that the test is negative
+* The **prevalence** of the disease - which is the marginal probability of disease
