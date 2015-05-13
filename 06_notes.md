@@ -78,5 +78,7 @@ The sample mean estimates the population mean. The population mean is the center
 Notably, it’s centered at the same spot as the original distribution! Thus, the distribution of the estimator (the sample mean) is centered at the distribution of what it’s estimating (the population mean). When the expected value of an estimator is what its trying to estimate, we say that the estimator is unbiased .
 
 ##Variance
-The variance of a sample is an estimate of the population variance.
-Var(a X)=a^2 Var(X)
+ * The variance of a sample is an estimate of the population variance.
+ * Var(a X)=a^2 Var(X)
+ * Var(X+Y)=Var(X)+Var(Y) if X and Y independant
+ * Var(X-Y)=Var(X)+Var(Y) if X and Y independant
