@@ -79,3 +79,4 @@ Notably, it’s centered at the same spot as the original distribution! Thus, th
 
 ##Variance
 The variance of a sample is an estimate of the population variance.
+Var(a X)=a^2 Var(X)
