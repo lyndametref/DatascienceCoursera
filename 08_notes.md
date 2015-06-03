@@ -9,6 +9,8 @@ predictions <- predict(modelFit,newdata=testing)
 confusionMatrix(predictions,testing$type)
 dummies <- dummyVars(wage ~ jobclass,data=training)
 nsv <- nearZeroVar(training,saveMetrics=TRUE)
+library(splines)
+bsBasis <- bs(training$age,df=3) 
 ```
 ## Caret tutorials:
  * http://www.edii.uclm.es/~useR-2013/Tutorials/kuhn/user_caret_2up.pdf
