@@ -21,3 +21,11 @@ bsBasis <- bs(training$age,df=3)
 ## A paper introducing the caret package
         http://www.jstatsoft.org/v28/i05/paper
 
+## Preprocessing with PCA + Prediction
+```
+preProc <- preProcess(training[,-c('result')]),method="pca",thresh=0.9) ## thresh=0.9 or pcaComp=2
+trainPC <- predict(preProc,training[,-c('result')])
+modelFit <- train(training$result ~ .,method="glm",data=trainPC)
+testPC <- predict(preProc,testing[,-c('result')])
+confusionMatrix(testing$result,predict(modelFit,testPC))
+```
