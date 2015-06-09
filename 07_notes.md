@@ -15,3 +15,13 @@
  * If we knew β0 and β1 confidence interval would have zero width.
  * The prediction interval must incorporate the variability in the data around the line.
  * Even if we knew β0 and β1 prediction interval would still have width.
+
+## Summary notes on linear models
+* Linear models are the single most important applied statistical and machine
+learning technique, *by far*.
+* Some amazing things that you can accomplish with linear models
+  * Decompose a signal into its harmonics.
+  * Flexibly fit complicated functions.
+  * Fit factor variables as predictors.
+  * Uncover complex multivariate relationships with the response.
+  * Build accurate prediction models.
