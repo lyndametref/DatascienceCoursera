@@ -1,4 +1,7 @@
-##Carte Package
+####Note
+Personal notes, not meant to be accurate or understood by others
+
+##Caret Package
 
 ```r
 inTrain <- createDataPartition(y=spam$type, p=0.75, list=FALSE)
