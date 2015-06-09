@@ -1,3 +1,6 @@
+####Note
+Personal notes, not meant to be accurate or understood by others
+
 ##R<sup>2</sup>
 
  * **R<sup>2</sup>** is the percentage of the total variability that is explained by the linear relationship with the predictor
