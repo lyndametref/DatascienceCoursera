@@ -25,3 +25,14 @@ learning technique, *by far*.
   * Fit factor variables as predictors.
   * Uncover complex multivariate relationships with the response.
   * Build accurate prediction models.
+
+### Summary of dummy variables
+* If we treat a variable as a factor, R includes an intercept and omits the alphabetically first level of the factor.
+  * The intercept is the estimated mean for the reference level.
+  * The intercept t-test tests for whether or not the mean for the reference level is 0.
+  * All other t-tests are for comparisons of the other levels versus the reference level.
+  * Other group means are obtained the intercept plus their coefficient.
+* If we omit an intercept, then it includes terms for all levels of the factor.
+  * Group means are now the coefficients.
+  * Tests are tests of whether the groups are different than zero.
+* If we want comparisons between two levels, neither of which is the reference level, we could refit the model with one of them as the reference level. `relevel(InsectSprays$spray, "C")`
