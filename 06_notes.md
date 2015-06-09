@@ -1,6 +1,9 @@
 #Statistical inference
 notes from the course Statistical Inference on Coursera
 
+####Note
+Personal notes, not meant to be accurate or understood by others
+
 ##Definition
 Statistical Inference = from sample *guess* the properties of the population
 
