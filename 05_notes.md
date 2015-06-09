@@ -1,3 +1,6 @@
+####Note
+Personal notes, not meant to be accurate or understood by others
+
 #knitr
 ##Input a value in a text chunk
 ```
