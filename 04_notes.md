@@ -1,4 +1,6 @@
 #04 Exploratory Data Analysis
+####Note
+Personal notes, not meant to be accurate or understood by others
 
 ##Copy plot window to file
 ```
