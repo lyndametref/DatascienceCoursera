@@ -33,6 +33,13 @@ data <- unz("activity.zip","activity.csv") %>%
     read.csv(as.is =TRUE,na.strings = "NA") %>% 
     tbl_df
 ```
+
+```{r}
+library(downloader)
+fileUrl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2"
+download(fileUrl, "data.csv.bz2", mode = "wb")
+```
+
 ## REplace NA by 0 (or smth else)
 ```{r}
 x[is.na(x)]<-0
